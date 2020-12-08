@@ -32,7 +32,7 @@ function App() {
         slidesperview={1}
         onInit={(swiper) => console.log('Swiper initialized', swiper)}
         onSlideChange={(swiper) =>
-          console.log('Slide index Swiper on change :', activeIndex)
+          console.log('Slide index Swiper on change :', swiper.activeIndex)
         }
         onReachEnd={(swiper) => console.log('Swiper and onReachEnd')}>
         {slides}
